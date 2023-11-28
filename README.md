@@ -8,7 +8,7 @@ You can find the finished application <a href="https://psiko23.github.io/Weather
 
 ## Website Preview
 
-<img src="./assets/127.0.0.1_5500_index.html.png">
+<img src="./assets/images/127.0.0.1_5500_index.html.png">
 
 ## Challenge
 
