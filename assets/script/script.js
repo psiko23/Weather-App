@@ -36,7 +36,7 @@ quickSearch();
 
 function getWeatherFromName(cityName) {
     console.log(cityName);
-    fetch("http://api.openweathermap.org/geo/1.0/direct?q="+ cityName +"&appid=c8d4606f9672457e7814fdfb0230ecef")
+    fetch("https://api.openweathermap.org/geo/1.0/direct?q="+ cityName +"&appid=c8d4606f9672457e7814fdfb0230ecef")
         .then(function(response) {
         return response.json();
         })
@@ -53,7 +53,7 @@ function getCoordsFromInput() {
     if (!userInput) {
      return Promise.reject("User input is empty");
     } else {
-    fetch("http://api.openweathermap.org/geo/1.0/direct?q="+ userInput +"&appid=c8d4606f9672457e7814fdfb0230ecef")
+    fetch("https://api.openweathermap.org/geo/1.0/direct?q="+ userInput +"&appid=c8d4606f9672457e7814fdfb0230ecef")
     .then(function (response) {
         return response.json();
     })
