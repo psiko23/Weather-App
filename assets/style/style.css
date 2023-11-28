@@ -1,0 +1,14 @@
+#main {
+    height: 100vh;
+}
+
+.citySearch{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+
+
+
